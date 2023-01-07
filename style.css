@@ -1,0 +1,57 @@
+main {
+  padding: 20px;
+}
+
+#company {
+  background-image: url("Files/picture2.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  object-fit: contain;
+}
+
+#company .container {
+  margin-top: 300px;
+}
+
+h3 {
+  font-style: italic;
+  background-color: rgba(0, 255, 255, 0.39);
+}
+
+h1 {
+  padding-top: 10rem;
+  color: blue !important;
+  font-weight: 1000 !important;
+  font-size: xx-large;
+  /* background-color: rgba(0, 255, 255, 0.39); */
+}
+#price .row {
+  width: 70% !important;
+  align-items: center !important;
+}
+
+#about h3 {
+  background-color: rgba(0, 255, 255, 0.39);
+}
+
+h2 {
+  padding: 1rem;
+}
+
+form {
+  margin: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .pictures {
+    visibility: hidden;
+    height: 0px !important ;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .pictures {
+    visibility: visible;
+  }
+}
